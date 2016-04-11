@@ -7,6 +7,10 @@
  * Add in any configuration variable settings to override variables in the local
  * environment.
  */
+ 
+ // Enusre that PHP will report errors.
+ error_reporting(E_ALL);
+ ini_set('display_errors', '1');
 
 // Sets the development state for the environment
 $disable_cache = FALSE;
