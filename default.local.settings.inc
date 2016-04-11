@@ -8,6 +8,10 @@
  * environment.
  */
 
+// Ensure that PHP is reporting errors regardless of configuration.
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+
 // Sets the development state for the environment
 $disable_cache = FALSE;
 
